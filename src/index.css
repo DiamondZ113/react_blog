@@ -9,5 +9,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 @theme {
-
+ --color-primary-50:#F9F5FF;
+ --color-primary-100:#dccbf5;
+ --color-primary-700:#6941C6;
+ --color-primary-900:#42307D;
 }
