@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-primary-50 px-20 py-24">
+    <div className="px-10 sm:px-20 py-24">
       <div className="flex flex-col gap-10 items-center justify-center text-center">
         {/* content */}
         <div className="flex flex-col gap-4 items-center">
@@ -13,7 +13,7 @@ const Header = () => {
         </div>
 
         {/* Search bar */}
-        <form action="" className="flex items-center gap-2 bg-white border-gray-300 border py-3 px-4 rounded-lg">
+        <form action="" className="flex items-center gap-2 bg-white border-gray-300 border py-3 px-4 w-full max-w-80 rounded-lg">
           <Search size={15}/>
           <input type="search" placeholder="Search..." className="outline-name" />
         </form>
